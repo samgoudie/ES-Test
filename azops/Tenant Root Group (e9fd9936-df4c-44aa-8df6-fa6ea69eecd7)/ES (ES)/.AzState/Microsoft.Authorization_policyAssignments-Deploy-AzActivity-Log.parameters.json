@@ -1,0 +1,39 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": {
+          "type": "SystemAssigned",
+          "principalId": "c267dcc1-4bcb-4727-92f0-65fa29db5eb1",
+          "tenantId": "e9fd9936-df4c-44aa-8df6-fa6ea69eecd7"
+        },
+        "Location": "westeurope",
+        "Name": "Deploy-AzActivity-Log",
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policyAssignments/Deploy-AzActivity-Log",
+        "ResourceName": "Deploy-AzActivity-Log",
+        "ResourceGroupName": null,
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "SubscriptionId": null,
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        },
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policyAssignments/Deploy-AzActivity-Log",
+        "Properties": {
+          "Scope": "/providers/Microsoft.Management/managementGroups/ES",
+          "NotScopes": null,
+          "DisplayName": "Deploy-AzActivity-Log",
+          "Description": "Deploy-AzActivity-Log",
+          "PolicyDefinitionId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policyDefinitions/Deploy-Diagnostics-ActivityLog",
+          "Parameters": {
+            "logAnalytics": {
+              "value": "/subscriptions/349006b8-b471-4726-ad1b-5c3261069762/resourcegroups/es-mgmt/providers/microsoft.operationalinsights/workspaces/es-la-349006b8-b471-4726-ad1b-5c3261069762"
+            }
+          }
+        }
+      }
+    }
+  }
+}

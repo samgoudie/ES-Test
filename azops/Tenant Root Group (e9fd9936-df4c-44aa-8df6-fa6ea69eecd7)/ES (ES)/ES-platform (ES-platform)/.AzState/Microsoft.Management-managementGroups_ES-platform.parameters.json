@@ -1,0 +1,58 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Id": "/providers/Microsoft.Management/managementGroups/ES-platform",
+        "Type": "/providers/Microsoft.Management/managementGroups",
+        "Name": "ES-platform",
+        "TenantId": "e9fd9936-df4c-44aa-8df6-fa6ea69eecd7",
+        "DisplayName": "ES-platform",
+        "UpdatedTime": "0001-01-01T00:00:00Z",
+        "UpdatedBy": null,
+        "ParentId": "/providers/Microsoft.Management/managementGroups/ES",
+        "ParentName": "ES",
+        "ParentDisplayName": "ES",
+        "Children": [
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/ES-identity",
+            "Name": "ES-identity",
+            "DisplayName": "ES-identity",
+            "Children": null
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/ES-management",
+            "Name": "ES-management",
+            "DisplayName": "ES-management",
+            "Children": [
+              {
+                "Type": "/subscriptions",
+                "Id": "/subscriptions/349006b8-b471-4726-ad1b-5c3261069762",
+                "Name": "349006b8-b471-4726-ad1b-5c3261069762",
+                "DisplayName": "Visual Studio Enterprise1",
+                "Children": null
+              }
+            ]
+          },
+          {
+            "Type": "/providers/Microsoft.Management/managementGroups",
+            "Id": "/providers/Microsoft.Management/managementGroups/ES-connectivity",
+            "Name": "ES-connectivity",
+            "DisplayName": "ES-connectivity",
+            "Children": null
+          }
+        ],
+        "properties": {
+          "policyDefinitions": [],
+          "policySetDefinitions": [],
+          "policyAssignments": [],
+          "roleDefinitions": null,
+          "roleAssignments": null
+        }
+      }
+    }
+  }
+}
