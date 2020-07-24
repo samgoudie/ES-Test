@@ -5,28 +5,24 @@
     "input": {
       "value": {
         "Name": "Deploy-Sql-Security",
-        "ResourceId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policySetDefinitions/Deploy-Sql-Security",
-        "ResourceName": "Deploy-Sql-Security",
-        "ResourceType": "Microsoft.Authorization/policySetDefinitions",
-        "SubscriptionId": null,
         "PolicySetDefinitionId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policySetDefinitions/Deploy-Sql-Security",
         "Properties": {
           "Description": "Recommended built-in security policies for the North Star architecture",
           "DisplayName": "Deploy-Sql-Security",
           "Parameters": {
             "vulnerabilityAssessmentsEmail": {
-              "type": "String",
               "metadata": {
                 "description": "The email address to send alerts",
                 "displayName": "The email address to send alerts"
-              }
+              },
+              "type": "String"
             },
             "vulnerabilityAssessmentsStorageID": {
-              "type": "String",
               "metadata": {
                 "description": "The storage account to store assessments",
                 "displayName": "The storage account to store assessments"
-              }
+              },
+              "type": "String"
             }
           },
           "PolicyDefinitionGroups": null,
@@ -59,7 +55,11 @@
               }
             }
           ]
-        }
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policySetDefinitions/Deploy-Sql-Security",
+        "ResourceName": "Deploy-Sql-Security",
+        "ResourceType": "Microsoft.Authorization/policySetDefinitions",
+        "SubscriptionId": null
       }
     }
   }
