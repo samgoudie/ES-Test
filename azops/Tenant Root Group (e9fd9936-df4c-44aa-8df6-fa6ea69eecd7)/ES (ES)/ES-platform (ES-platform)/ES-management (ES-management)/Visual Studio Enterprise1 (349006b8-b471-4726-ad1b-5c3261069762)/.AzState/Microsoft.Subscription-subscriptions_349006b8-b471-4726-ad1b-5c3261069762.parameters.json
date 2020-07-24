@@ -4,11 +4,11 @@
   "parameters": {
     "input": {
       "value": {
-        "Type": "/subscriptions",
+        "Children": null,
+        "DisplayName": "Visual Studio Enterprise1",
         "Id": "/subscriptions/349006b8-b471-4726-ad1b-5c3261069762",
         "Name": "349006b8-b471-4726-ad1b-5c3261069762",
-        "DisplayName": "Visual Studio Enterprise1",
-        "Children": null,
+        "Type": "/subscriptions",
         "properties": {
           "policyDefinitions": [],
           "policySetDefinitions": [],
