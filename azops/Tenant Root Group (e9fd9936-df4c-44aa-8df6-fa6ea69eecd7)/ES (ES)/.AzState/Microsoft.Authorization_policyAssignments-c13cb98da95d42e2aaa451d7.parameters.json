@@ -1,0 +1,36 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "input": {
+      "value": {
+        "Identity": null,
+        "Location": null,
+        "Name": "c13cb98da95d42e2aaa451d7",
+        "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policyAssignments/c13cb98da95d42e2aaa451d7",
+        "Properties": {
+          "Description": null,
+          "DisplayName": "Require a tag and its value on resources",
+          "NotScopes": null,
+          "Parameters": {
+            "tagName": {
+              "value": "TestTag"
+            },
+            "tagValue": {
+              "value": "Test"
+            }
+          },
+          "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1e30110a-5ceb-460c-a204-c1c3969c6d62",
+          "Scope": "/providers/Microsoft.Management/managementGroups/ES"
+        },
+        "ResourceId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policyAssignments/c13cb98da95d42e2aaa451d7",
+        "ResourceName": "c13cb98da95d42e2aaa451d7",
+        "ResourceType": "Microsoft.Authorization/policyAssignments",
+        "Sku": {
+          "name": "A0",
+          "tier": "Free"
+        }
+      }
+    }
+  }
+}

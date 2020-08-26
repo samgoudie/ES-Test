@@ -10444,6 +10444,34 @@
           ],
           "policyAssignments": [
             {
+              "Identity": null,
+              "Location": null,
+              "Name": "c13cb98da95d42e2aaa451d7",
+              "PolicyAssignmentId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policyAssignments/c13cb98da95d42e2aaa451d7",
+              "Properties": {
+                "Description": null,
+                "DisplayName": "Require a tag and its value on resources",
+                "NotScopes": null,
+                "Parameters": {
+                  "tagName": {
+                    "value": "TestTag"
+                  },
+                  "tagValue": {
+                    "value": "Test"
+                  }
+                },
+                "PolicyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/1e30110a-5ceb-460c-a204-c1c3969c6d62",
+                "Scope": "/providers/Microsoft.Management/managementGroups/ES"
+              },
+              "ResourceId": "/providers/Microsoft.Management/managementGroups/ES/providers/Microsoft.Authorization/policyAssignments/c13cb98da95d42e2aaa451d7",
+              "ResourceName": "c13cb98da95d42e2aaa451d7",
+              "ResourceType": "Microsoft.Authorization/policyAssignments",
+              "Sku": {
+                "name": "A0",
+                "tier": "Free"
+              }
+            },
+            {
               "Identity": {
                 "principalId": "c267dcc1-4bcb-4727-92f0-65fa29db5eb1",
                 "tenantId": "e9fd9936-df4c-44aa-8df6-fa6ea69eecd7",
