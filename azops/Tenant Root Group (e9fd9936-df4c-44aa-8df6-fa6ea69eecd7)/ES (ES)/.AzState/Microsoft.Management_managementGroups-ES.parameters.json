@@ -10502,7 +10502,7 @@
             }
           ],
           "roleDefinitions": [],
-          "roleAssignments": []
+          "roleAssignments": null
         }
       }
     }
